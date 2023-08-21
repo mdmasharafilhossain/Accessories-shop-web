@@ -51,9 +51,13 @@ function Click(target){
     
      document.getElementById('totall').innerText =TotalTaka.toFixed(2); 
    }
-//    else{
-//     alert('Invalid Promo Code')
-//    }
+   else{
+    alert('Invalid Promo Code')
+   }
    
+}
+
+function BackHome(target){
+    window.location.href = 'index.html';
 }
 
